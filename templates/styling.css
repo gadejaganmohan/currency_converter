@@ -8,5 +8,9 @@ body {
     margin: 0; /* Remove default margin */
   }
   
-
+  .converter { /* Style the converter section */
+    background-color: rgba(212, 215, 230, 0.8); /* White background with some transparency */
+    border-radius: 10px; /* Rounded corners for a smoother look */
+    padding: 30px;
+  }
   
