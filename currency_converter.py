@@ -5,7 +5,7 @@ from pprint import PrettyPrinter
 load_dotenv()
 
 BASE_URL = "https://api.freecurrencyapi.com" 
-API_KEY = os.getenv("API_KEY")
+API_KEY = "fca_live_RLRUV1zt7YhqW4FGSG1YDwAYIN1DaBjQZn49TkiD"
 endpoint = f"/v1/latest?apikey={API_KEY}"
 print("Welcome to CURRENCY CONVERTER")
 print("-----------------------------")
