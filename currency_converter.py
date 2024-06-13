@@ -1,8 +1,7 @@
 import os
-from dotenv import load_dotenv
 from requests import get
 from pprint import PrettyPrinter
-load_dotenv()
+
 
 BASE_URL = "https://api.freecurrencyapi.com" 
 API_KEY = "fca_live_RLRUV1zt7YhqW4FGSG1YDwAYIN1DaBjQZn49TkiD"
